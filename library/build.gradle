@@ -1,7 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 30
@@ -88,5 +87,3 @@ ext {
     licenseUrl = 'https://opensource.org/licenses/BSD-2-Clause'
     allLicenses = ["BSD-2-Clause"]
 }
-
-apply from: 'bintray.gradle'
