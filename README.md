@@ -1,5 +1,7 @@
 # JP2 for Android
 ---------------------------
+[![](https://jitpack.io/v/ainceborn/JP2ForAndroid.svg)](https://jitpack.io/#ainceborn/JP2ForAndroid)
+
 An open-source JPEG-2000 image encoder/decoder for Android based on [OpenJPEG](http://www.openjpeg.org/) v2.4.0.
 
 ## Set up
@@ -119,3 +121,4 @@ byte[] j2kdata = new JP2Encoder(bmp)
                      .setOutputFormat(FORMAT_J2K)
                      .encode();
 ```
+
